@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "LibraryManagement.Protos";
+
+package book;
+
+service BookRPC{
+	rpc GetBookDetail(GetBookRequest) returns (GetBookReply);
+}
+
+message GetBookRequest {
+	string id = 1;
+}
+
+message GetBookReply{
+	string id = 1;
+	string name = 2;
+	string level = 3;
+	repeated Manufactor manufactors = 4;
+}
+message Manufactor {
+	string id = 1;
+	string name = 2;
+	string level = 3;
+}
