@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagement", "LibraryManagement\LibraryManagement.csproj", "{6E0CFF91-337D-4A16-903A-0A61B32B17C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManagement", "LibraryManagement\LibraryManagement.csproj", "{6E0CFF91-337D-4A16-903A-0A61B32B17C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryClient", "LibraryClient\LibraryClient.csproj", "{2A0E744F-6C5D-46D5-8AF9-B3B7EAB6040A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryClient", "LibraryClient\LibraryClient.csproj", "{2A0E744F-6C5D-46D5-8AF9-B3B7EAB6040A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
